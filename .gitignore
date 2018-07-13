@@ -1,4 +1,4 @@
 conf/cluster/data/
 conf/cluster/log/
-*/data
-*/log
+*/*/data/
+*/*/log/
