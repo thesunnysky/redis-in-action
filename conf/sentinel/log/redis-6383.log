@@ -1,0 +1,168 @@
+31676:C 13 Jul 11:44:42.318 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31676:C 13 Jul 11:44:42.318 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=31676, just started
+31676:C 13 Jul 11:44:42.319 # Configuration loaded
+31680:S 13 Jul 11:44:42.321 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+31680:S 13 Jul 11:44:42.321 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+31680:S 13 Jul 11:44:42.321 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+31680:S 13 Jul 11:44:42.321 * Running mode=standalone, port=6383.
+31680:S 13 Jul 11:44:42.321 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+31680:S 13 Jul 11:44:42.321 # Server initialized
+31680:S 13 Jul 11:44:42.321 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+31680:S 13 Jul 11:44:42.321 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+31680:S 13 Jul 11:44:42.321 . Unrecognized RDB AUX field: 'redis-ver'
+31680:S 13 Jul 11:44:42.321 . Unrecognized RDB AUX field: 'redis-bits'
+31680:S 13 Jul 11:44:42.322 . Unrecognized RDB AUX field: 'ctime'
+31680:S 13 Jul 11:44:42.322 . Unrecognized RDB AUX field: 'used-mem'
+31680:S 13 Jul 11:44:42.322 . Unrecognized RDB AUX field: 'aof-preamble'
+31680:S 13 Jul 11:44:42.322 * DB loaded from disk: 0.000 seconds
+31680:S 13 Jul 11:44:42.322 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+31680:S 13 Jul 11:44:42.322 * Ready to accept connections
+31680:S 13 Jul 11:44:42.322 - 0 clients connected (0 slaves), 496176 bytes in use
+31680:S 13 Jul 11:44:42.322 * Connecting to MASTER 127.0.0.1:6382
+31680:S 13 Jul 11:44:42.322 * MASTER <-> SLAVE sync started
+31680:S 13 Jul 11:44:42.322 * Non blocking connect for SYNC fired the event.
+31680:S 13 Jul 11:44:42.325 * Master replied to PING, replication can continue...
+31680:S 13 Jul 11:44:42.325 * Trying a partial resynchronization (request ca339e621bed444ea32c9840b6ca98666e76b9a4:1).
+31680:S 13 Jul 11:44:42.326 * Full resync from master: a6798563a0b46480dd57126e2f13fa3ecf756525:0
+31680:S 13 Jul 11:44:42.326 * Discarding previously cached master state.
+31680:S 13 Jul 11:44:42.353 - Accepted 127.0.0.1:42426
+31680:S 13 Jul 11:44:42.353 - Accepted 127.0.0.1:42428
+31680:S 13 Jul 11:44:42.353 - Accepted 127.0.0.1:42458
+31680:S 13 Jul 11:44:42.353 - Accepted 127.0.0.1:42460
+31680:S 13 Jul 11:44:42.356 - Accepted 127.0.0.1:42482
+31680:S 13 Jul 11:44:42.356 - Accepted 127.0.0.1:42484
+31680:S 13 Jul 11:44:42.519 * MASTER <-> SLAVE sync: receiving 175 bytes from master
+31680:S 13 Jul 11:44:42.519 * MASTER <-> SLAVE sync: Flushing old data
+31680:S 13 Jul 11:44:42.519 * MASTER <-> SLAVE sync: Loading DB in memory
+31680:S 13 Jul 11:44:42.519 . Unrecognized RDB AUX field: 'redis-ver'
+31680:S 13 Jul 11:44:42.519 . Unrecognized RDB AUX field: 'redis-bits'
+31680:S 13 Jul 11:44:42.519 . Unrecognized RDB AUX field: 'ctime'
+31680:S 13 Jul 11:44:42.519 . Unrecognized RDB AUX field: 'used-mem'
+31680:S 13 Jul 11:44:42.519 . Unrecognized RDB AUX field: 'aof-preamble'
+31680:S 13 Jul 11:44:42.519 * MASTER <-> SLAVE sync: Finished with success
+31680:S 13 Jul 11:44:47.330 - 7 clients connected (0 slaves), 1670192 bytes in use
+31680:S 13 Jul 11:44:52.341 - 7 clients connected (0 slaves), 1707024 bytes in use
+31680:S 13 Jul 11:44:57.347 - 7 clients connected (0 slaves), 1670192 bytes in use
+31680:S 13 Jul 11:45:02.359 - 7 clients connected (0 slaves), 1707024 bytes in use
+31680:S 13 Jul 11:45:07.371 - 7 clients connected (0 slaves), 1707072 bytes in use
+31680:S 13 Jul 11:45:12.385 - 7 clients connected (0 slaves), 1707024 bytes in use
+31680:S 13 Jul 11:45:17.395 - 7 clients connected (0 slaves), 1670264 bytes in use
+31680:S 13 Jul 11:45:22.406 - 7 clients connected (0 slaves), 1707024 bytes in use
+31680:S 13 Jul 11:45:27.419 - 7 clients connected (0 slaves), 1707120 bytes in use
+31680:S 13 Jul 11:45:32.430 - 7 clients connected (0 slaves), 1743880 bytes in use
+31680:S 13 Jul 11:45:37.440 - 7 clients connected (0 slaves), 1780784 bytes in use
+31680:S 13 Jul 11:45:42.451 - 7 clients connected (0 slaves), 1707096 bytes in use
+31680:S 13 Jul 11:45:47.464 - 7 clients connected (0 slaves), 1670192 bytes in use
+31680:S 13 Jul 11:45:52.477 - 7 clients connected (0 slaves), 1707096 bytes in use
+31680:S 13 Jul 11:45:57.485 - 7 clients connected (0 slaves), 1670192 bytes in use
+31680:S 13 Jul 11:46:02.498 - 7 clients connected (0 slaves), 1707048 bytes in use
+31680:S 13 Jul 11:46:07.512 - 7 clients connected (0 slaves), 1670216 bytes in use
+31680:signal-handler (1531453569) Received SIGTERM scheduling shutdown...
+31680:S 13 Jul 11:46:09.513 - Client closed connection
+31680:S 13 Jul 11:46:09.513 # Connection with master lost.
+31680:S 13 Jul 11:46:09.514 * Caching the disconnected master state.
+31680:S 13 Jul 11:46:09.515 # User requested shutdown...
+31680:S 13 Jul 11:46:09.515 * Removing the pid file.
+31680:S 13 Jul 11:46:09.515 # Redis is now ready to exit, bye bye...
+12713:C 13 Jul 11:53:02.017 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12713:C 13 Jul 11:53:02.017 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=12713, just started
+12713:C 13 Jul 11:53:02.017 # Configuration loaded
+12718:S 13 Jul 11:53:02.019 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+12718:S 13 Jul 11:53:02.019 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+12718:S 13 Jul 11:53:02.019 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+12718:S 13 Jul 11:53:02.020 * Running mode=standalone, port=6383.
+12718:S 13 Jul 11:53:02.020 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+12718:S 13 Jul 11:53:02.020 # Server initialized
+12718:S 13 Jul 11:53:02.020 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+12718:S 13 Jul 11:53:02.020 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+12718:S 13 Jul 11:53:02.020 . Unrecognized RDB AUX field: 'redis-ver'
+12718:S 13 Jul 11:53:02.020 . Unrecognized RDB AUX field: 'redis-bits'
+12718:S 13 Jul 11:53:02.020 . Unrecognized RDB AUX field: 'ctime'
+12718:S 13 Jul 11:53:02.020 . Unrecognized RDB AUX field: 'used-mem'
+12718:S 13 Jul 11:53:02.020 . Unrecognized RDB AUX field: 'aof-preamble'
+12718:S 13 Jul 11:53:02.020 * DB loaded from disk: 0.000 seconds
+12718:S 13 Jul 11:53:02.020 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+12718:S 13 Jul 11:53:02.020 * Ready to accept connections
+12718:S 13 Jul 11:53:02.020 - 0 clients connected (0 slaves), 496176 bytes in use
+12718:S 13 Jul 11:53:02.020 * Connecting to MASTER 127.0.0.1:6382
+12718:S 13 Jul 11:53:02.020 * MASTER <-> SLAVE sync started
+12718:S 13 Jul 11:53:02.020 * Non blocking connect for SYNC fired the event.
+12718:S 13 Jul 11:53:02.021 * Master replied to PING, replication can continue...
+12718:S 13 Jul 11:53:02.023 * Trying a partial resynchronization (request 251e3c43d4b7a87a17d26d399241e16475f0b869:1).
+12718:S 13 Jul 11:53:02.024 * Full resync from master: b6adc3cca4de8b8f3f906e8f468172adf5d1d1c7:0
+12718:S 13 Jul 11:53:02.024 * Discarding previously cached master state.
+12718:S 13 Jul 11:53:02.047 - Accepted 127.0.0.1:42590
+12718:S 13 Jul 11:53:02.047 - Accepted 127.0.0.1:42592
+12718:S 13 Jul 11:53:02.050 - Accepted 127.0.0.1:42622
+12718:S 13 Jul 11:53:02.050 - Accepted 127.0.0.1:42624
+12718:S 13 Jul 11:53:02.054 - Accepted 127.0.0.1:42666
+12718:S 13 Jul 11:53:02.054 - Accepted 127.0.0.1:42668
+12718:S 13 Jul 11:53:02.120 * MASTER <-> SLAVE sync: receiving 175 bytes from master
+12718:S 13 Jul 11:53:02.120 * MASTER <-> SLAVE sync: Flushing old data
+12718:S 13 Jul 11:53:02.120 * MASTER <-> SLAVE sync: Loading DB in memory
+12718:S 13 Jul 11:53:02.120 . Unrecognized RDB AUX field: 'redis-ver'
+12718:S 13 Jul 11:53:02.120 . Unrecognized RDB AUX field: 'redis-bits'
+12718:S 13 Jul 11:53:02.120 . Unrecognized RDB AUX field: 'ctime'
+12718:S 13 Jul 11:53:02.120 . Unrecognized RDB AUX field: 'used-mem'
+12718:S 13 Jul 11:53:02.120 . Unrecognized RDB AUX field: 'aof-preamble'
+12718:S 13 Jul 11:53:02.121 * MASTER <-> SLAVE sync: Finished with success
+12718:S 13 Jul 11:53:07.029 - 7 clients connected (0 slaves), 1670192 bytes in use
+12718:S 13 Jul 11:53:12.039 - 7 clients connected (0 slaves), 1670192 bytes in use
+12718:signal-handler (1531453996) Received SIGTERM scheduling shutdown...
+12718:S 13 Jul 11:53:16.249 - Client closed connection
+12718:S 13 Jul 11:53:16.249 - Client closed connection
+12718:S 13 Jul 11:53:16.251 # User requested shutdown...
+12718:S 13 Jul 11:53:16.251 * Removing the pid file.
+12718:S 13 Jul 11:53:16.251 # Redis is now ready to exit, bye bye...
+2409:C 13 Jul 13:02:35.861 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2409:C 13 Jul 13:02:35.861 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=2409, just started
+2409:C 13 Jul 13:02:35.861 # Configuration loaded
+2411:S 13 Jul 13:02:35.862 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+2411:S 13 Jul 13:02:35.862 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+2411:S 13 Jul 13:02:35.862 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+2411:S 13 Jul 13:02:35.863 * Running mode=standalone, port=6383.
+2411:S 13 Jul 13:02:35.863 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2411:S 13 Jul 13:02:35.863 # Server initialized
+2411:S 13 Jul 13:02:35.863 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2411:S 13 Jul 13:02:35.863 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2411:S 13 Jul 13:02:35.863 . Unrecognized RDB AUX field: 'redis-ver'
+2411:S 13 Jul 13:02:35.863 . Unrecognized RDB AUX field: 'redis-bits'
+2411:S 13 Jul 13:02:35.863 . Unrecognized RDB AUX field: 'ctime'
+2411:S 13 Jul 13:02:35.863 . Unrecognized RDB AUX field: 'used-mem'
+2411:S 13 Jul 13:02:35.863 . Unrecognized RDB AUX field: 'aof-preamble'
+2411:S 13 Jul 13:02:35.863 * DB loaded from disk: 0.000 seconds
+2411:S 13 Jul 13:02:35.863 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2411:S 13 Jul 13:02:35.863 * Ready to accept connections
+2411:S 13 Jul 13:02:35.867 - 0 clients connected (0 slaves), 496176 bytes in use
+2411:S 13 Jul 13:02:35.867 * Connecting to MASTER 127.0.0.1:6382
+2411:S 13 Jul 13:02:35.867 * MASTER <-> SLAVE sync started
+2411:S 13 Jul 13:02:35.867 * Non blocking connect for SYNC fired the event.
+2411:S 13 Jul 13:02:35.869 * Master replied to PING, replication can continue...
+2411:S 13 Jul 13:02:35.874 * Trying a partial resynchronization (request 9c3dea3fa41e60be68b5b3a535d3c3c26198c05e:1).
+2411:S 13 Jul 13:02:35.882 * Full resync from master: 94dfbee742d13d7494d950df9c035287f10d1bc4:0
+2411:S 13 Jul 13:02:35.882 * Discarding previously cached master state.
+2411:S 13 Jul 13:02:35.888 - Accepted 127.0.0.1:43658
+2411:S 13 Jul 13:02:35.888 - Accepted 127.0.0.1:43660
+2411:S 13 Jul 13:02:35.890 - Accepted 127.0.0.1:43674
+2411:S 13 Jul 13:02:35.890 - Accepted 127.0.0.1:43676
+2411:S 13 Jul 13:02:35.891 - Accepted 127.0.0.1:43714
+2411:S 13 Jul 13:02:35.891 - Accepted 127.0.0.1:43716
+2411:S 13 Jul 13:02:35.958 * MASTER <-> SLAVE sync: receiving 175 bytes from master
+2411:S 13 Jul 13:02:35.958 * MASTER <-> SLAVE sync: Flushing old data
+2411:S 13 Jul 13:02:35.958 * MASTER <-> SLAVE sync: Loading DB in memory
+2411:S 13 Jul 13:02:35.958 . Unrecognized RDB AUX field: 'redis-ver'
+2411:S 13 Jul 13:02:35.958 . Unrecognized RDB AUX field: 'redis-bits'
+2411:S 13 Jul 13:02:35.958 . Unrecognized RDB AUX field: 'ctime'
+2411:S 13 Jul 13:02:35.958 . Unrecognized RDB AUX field: 'used-mem'
+2411:S 13 Jul 13:02:35.958 . Unrecognized RDB AUX field: 'aof-preamble'
+2411:S 13 Jul 13:02:35.958 * MASTER <-> SLAVE sync: Finished with success
+2411:S 13 Jul 13:02:40.877 - 7 clients connected (0 slaves), 1670192 bytes in use
+2411:signal-handler (1531458162) Received SIGTERM scheduling shutdown...
+2411:S 13 Jul 13:02:42.971 - Client closed connection
+2411:S 13 Jul 13:02:42.971 # Connection with master lost.
+2411:S 13 Jul 13:02:42.971 * Caching the disconnected master state.
+2411:S 13 Jul 13:02:42.975 - Client closed connection
+2411:S 13 Jul 13:02:42.975 - Client closed connection
+2411:S 13 Jul 13:02:42.981 # User requested shutdown...
+2411:S 13 Jul 13:02:42.981 * Removing the pid file.
+2411:S 13 Jul 13:02:42.981 # Redis is now ready to exit, bye bye...

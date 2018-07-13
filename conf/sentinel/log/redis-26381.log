@@ -1,0 +1,47 @@
+31716:X 13 Jul 11:44:42.353 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31716:X 13 Jul 11:44:42.353 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=31716, just started
+31716:X 13 Jul 11:44:42.353 # Configuration loaded
+31720:X 13 Jul 11:44:42.354 * Increased maximum number of open files to 4096 (it was originally set to 1024).
+31720:X 13 Jul 11:44:42.354 * Running mode=sentinel, port=26381.
+31720:X 13 Jul 11:44:42.354 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+31720:X 13 Jul 11:44:42.354 # Sentinel ID is 60fda12aeec0a852234546f76715a74c7c86d868
+31720:X 13 Jul 11:44:42.354 # +monitor master master-1 127.0.0.1 6381 quorum 2
+31720:X 13 Jul 11:44:42.354 # +monitor master master-2 127.0.0.1 6382 quorum 2
+31720:X 13 Jul 11:44:43.392 - Accepted 127.0.0.1:39710
+31720:X 13 Jul 11:44:43.397 - Accepted 127.0.0.1:39712
+31720:signal-handler (1531453569) Received SIGTERM scheduling shutdown...
+31720:X 13 Jul 11:46:09.522 - Client closed connection
+31720:X 13 Jul 11:46:09.529 # User requested shutdown...
+31720:X 13 Jul 11:46:09.529 * Removing the pid file.
+31720:X 13 Jul 11:46:09.529 # Sentinel is now ready to exit, bye bye...
+12758:X 13 Jul 11:53:02.048 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12758:X 13 Jul 11:53:02.048 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=12758, just started
+12758:X 13 Jul 11:53:02.048 # Configuration loaded
+12764:X 13 Jul 11:53:02.048 * Increased maximum number of open files to 4096 (it was originally set to 1024).
+12764:X 13 Jul 11:53:02.049 * Running mode=sentinel, port=26381.
+12764:X 13 Jul 11:53:02.049 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+12764:X 13 Jul 11:53:02.049 # Sentinel ID is 60fda12aeec0a852234546f76715a74c7c86d868
+12764:X 13 Jul 11:53:02.049 # +monitor master master-1 127.0.0.1 6381 quorum 2
+12764:X 13 Jul 11:53:02.049 # +monitor master master-2 127.0.0.1 6382 quorum 2
+12764:X 13 Jul 11:53:02.049 - Accepted 127.0.0.1:39844
+12764:X 13 Jul 11:53:03.057 - Accepted 127.0.0.1:39890
+12764:signal-handler (1531453996) Received SIGTERM scheduling shutdown...
+12764:X 13 Jul 11:53:16.249 # User requested shutdown...
+12764:X 13 Jul 11:53:16.249 * Removing the pid file.
+12764:X 13 Jul 11:53:16.249 # Sentinel is now ready to exit, bye bye...
+2472:X 13 Jul 13:02:35.889 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2472:X 13 Jul 13:02:35.889 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=2472, just started
+2472:X 13 Jul 13:02:35.889 # Configuration loaded
+2476:X 13 Jul 13:02:35.890 * Increased maximum number of open files to 4096 (it was originally set to 1024).
+2476:X 13 Jul 13:02:35.890 * Running mode=sentinel, port=26381.
+2476:X 13 Jul 13:02:35.890 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2476:X 13 Jul 13:02:35.890 # Sentinel ID is 60fda12aeec0a852234546f76715a74c7c86d868
+2476:X 13 Jul 13:02:35.890 # +monitor master master-1 127.0.0.1 6381 quorum 2
+2476:X 13 Jul 13:02:35.890 # +monitor master master-2 127.0.0.1 6382 quorum 2
+2476:X 13 Jul 13:02:35.891 - Accepted 127.0.0.1:40894
+2476:X 13 Jul 13:02:36.901 - Accepted 127.0.0.1:40942
+2476:signal-handler (1531458162) Received SIGTERM scheduling shutdown...
+2476:X 13 Jul 13:02:42.975 - Client closed connection
+2476:X 13 Jul 13:02:42.983 # User requested shutdown...
+2476:X 13 Jul 13:02:42.983 * Removing the pid file.
+2476:X 13 Jul 13:02:42.983 # Sentinel is now ready to exit, bye bye...
