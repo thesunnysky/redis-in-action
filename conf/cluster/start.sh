@@ -8,5 +8,5 @@ do
     redis-server $conf_file
 done
 
-echo "[redis-trib.rb]: Begin to create cluster..."
-redis-trib.rb create --replicas 1 127.0.0.1:6379 127.0.0.1:6380 127.0.0.1:6381 127.0.0.1:6382 127.0.0.1:6383 127.0.0.1:6384
+echo "[redis-cli]: Begin to create cluster..."
+redis-cli --cluster create --cluster-replicas 1 127.0.0.1:6379 127.0.0.1:6380 127.0.0.1:6381 127.0.0.1:6382 127.0.0.1:6383 127.0.0.1:6384 --cluster-replicas 1
