@@ -2,6 +2,8 @@
 BASE_DIR=`pwd`
 #echo $BASE_DIR
 
+rm -rf ./data/*
+
 for conf_file in $BASE_DIR/*.conf
 do 
     echo "start redis instance:" $conf_file
