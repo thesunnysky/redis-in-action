@@ -4,3 +4,4 @@ conf/cluster/log/
 !**/log/.gitkeep
 **/data/*
 !**/data/.gitkeep
+*rdb
