@@ -1,7 +1,6 @@
 conf/cluster/data/
 conf/cluster/log/
-*/*/data/
-*/*/log/
-**/*.log
-**/*.rdb
-**/*.aof
+**/log/*
+!**/log/.gitkeep
+**/data/*
+!**/data/.gitkeep
