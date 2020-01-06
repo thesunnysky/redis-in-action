@@ -1,5 +1,3 @@
-conf/cluster/data/
-conf/cluster/log/
 **/log/*
 !**/log/.gitkeep
 **/data/*
